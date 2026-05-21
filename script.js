@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const worksContainer = document.getElementById("works-container");
 
     // works.jsonをfetchで取得
-    fetch("works.json")
+    fetch("public/works.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error("ネットワークエラーが発生しました");
