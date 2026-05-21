@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 src="${work.image}" 
                                 alt="${work.title}" 
                                 class="work-img"
-                                onerror="this.onerror=null; this.src='images/noimage.png';"
+                                onerror="this.onerror=null; this.src='public/images/noimage.png';"
                             >
                         </div>
                         <div class="work-info">
