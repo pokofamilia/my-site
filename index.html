@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poko Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Poko Studio</h1>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#profile">プロフィール</a></li>
+                <li><a href="#works">作品</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ヒーローセクション追加 -->
+        <section id="home" class="hero-section">
+            <div class="hero-content fade-in">
+                <h2 class="hero-title">Welcome to<br>Poko Studio</h2>
+                <p class="hero-subtitle">Creative & Engineering</p>
+            </div>
+        </section>
+
+        <section id="profile" class="section profile-section fade-in">
+            <h2 class="section-title">プロフィール</h2>
+            <div class="profile-card">
+                <p class="profile-title">プログラマー</p>
+                <p class="profile-text">現在、以下の言語やフレームワークを中心に精力的に学習を進めています。</p>
+                <p class="profile-text" style="margin-top: 15px; font-size: 18px; color: var(--accent-color);">Python / CSS / Django / Dart</p>
+            </div>
+        </section>
+
+        <section id="works" class="section works-section fade-in">
+            <h2 class="section-title">作品一覧</h2>
+            <div id="works-container" class="works-grid">
+                <!-- works.jsonから動的生成されます -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <h3 class="footer-title">リンク</h3>
+            <ul class="link-list">
+                <li><a href="https://github.com/pokofamilia/" target="_blank" rel="noopener noreferrer">GitHubページはこちら</a></li>
+                <li><a href="https://x.com/Pokota63828" target="_blank" rel="noopener noreferrer">Xページはこちら</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "How to create a portfolio website",
+    "description": "自分のポートフォリオサイトを作成し公開する方法を学習するためのサイト",
+    "image": "images/portfolio.jpg",
+    "url": "https://v0-portfolio-site-requirements-iota.vercel.app/",
+    "technologies": ["HTML", "CSS"]
+  },
+  {
+    "title": "One Night Werewolf",
+    "description": "Pythonで作成したワンナイト人狼ゲーム",
+    "image": "images/werewolf.jpg",
+    "url": "https://github.com/pokofamilia/onenight_werewolf",
+    "technologies": ["Python"]
+  },
+  {
+    "title": "Django Polls",
+    "description": "Djangoチュートリアルをベースにした投票アプリ",
+    "image": "images/django.jpg",
+    "url": "https://github.com/pokofamilia/Django_polls",
+    "technologies": ["Django", "Python"]
+  }
+]
